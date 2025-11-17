@@ -14,7 +14,7 @@
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
@@ -166,7 +166,7 @@ figure {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
@@ -464,7 +464,7 @@ body.offcanvas {
   border-radius: 50%; }
 
 .colorlib-heading {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 1.5em;
   font-weight: 700;
   text-transform: uppercase;
@@ -480,7 +480,7 @@ body.offcanvas {
 .heading-meta {
   margin-bottom: 15px;
   display: block;
-  font-size: 10px;
+  font-size: 12px;
   text-transform: uppercase;
   color: #999999;
   font-weight: 500;
@@ -527,7 +527,7 @@ body.offcanvas {
   display: block;
   width: 100%;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   text-transform: capitalize;
   font-family: "Quicksand", Arial, sans-serif;
@@ -556,7 +556,7 @@ body.offcanvas {
   content: "\e115";
   position: absolute;
   right: 20px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   top: 50%;
   line-height: 1;
@@ -677,7 +677,7 @@ body.offcanvas {
  }
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label li p {
   font-family: "Quicksand", Times New Roman, serif;
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 0;
  }
  @media screen and (max-width: 992px) {
@@ -700,7 +700,7 @@ body.offcanvas {
   opacity: .5;
   -ms-filter: alpha(opacity=50);
   filter: alpha(opacity=50);
-  font-size: 14x; }
+  font-size: 16x; }
 
 .services {
   margin-bottom: 30px;
@@ -730,14 +730,19 @@ body.offcanvas {
     .services.color-3 .icon2 i {
       color: #f9bf3f; }
   .services.color-4 {
-    border-right: 2px solid #a84cb8; 
-    border-bottom: 0;}
+    border-left: 2px solid #a84cb8; 
+  border-bottom: 0}
     .services.color-4 .icon2 i {
       color: #a84cb8; }
   .services.color-5 {
-    border-bottom: 2px solid #2fa499; }
+    border-right: 2px solid #2fa499; 
+    border-bottom: 0; }
   .services.color-6 {
     border-bottom: 2px solid #4054b2; }
+  .services.color-7 {
+    border-bottom: 2px solid #48bf56; }
+    
+
 
 .services {
   margin-bottom: 80px;
@@ -817,6 +822,12 @@ body.offcanvas {
       border-color: transparent transparent #4054b2 transparent; }
     .services.color-6 .icon:after {
       border-color: #4054b2 transparent transparent transparent; }
+  .services.color-7 .icon {
+    background:  #48bf56; }
+    .services.color-7 .icon:before {
+      border-color: transparent transparent  #48bf56 transparent; }
+    .services.color-7 .icon:after {
+      border-color:  #48bf56  transparent transparent transparent; }
 
 .progress-wrap h3 {
   font-size: 16px;
